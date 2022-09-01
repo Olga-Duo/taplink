@@ -1,3 +1,32 @@
 *{
   box-sizing: border-box;
 }
+body {
+  background-color: #F2F2F2;
+  padding: 15px;
+  font-family: 'Exo 2', sans-serif;
+}
+.page-wrapeer {
+  max-width: 375px;
+  margin: auto;
+  background: #F3F3F3;
+  box-shadow: 7px 4px 30px rgba(155, 155, 155, 0.25);
+  border-radius: 20px;
+}
+.header {
+  color: white;
+  padding: 40px 54px 150px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url('../img/heder-bg.jpg') no-repeat center / cover;
+border-radius: 0px 0px 80px 80px;
+}
+.hello {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+}
